@@ -1,14 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Amarante&family=Poppins&display=swap');
+
+.home-title{
+    font-family:Amarante, poppins, sans-serif;
+    font-size: 2em;
+    margin-top: 10px;
+    text-align: center;
+    color:rgb(231, 222, 231)
+}
+
+
 content {
     max-width: 1600px;
     margin: 0 auto;
 }
 
+#hero-img {
+    width: 100%;
+}
+
 hero-msg h1, hero-msg h4 {
     text-align: center;
-    width: 80px;
+    
 } 
+
+.logo {
+    width: 80px;
+}
+
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 
 .button-box {
@@ -23,6 +44,18 @@ main section  {
 
 body {
     background-color: rgb(104, 157, 175);
+    font-family: poppins, helvetica, sans-serif;
+    font-size: 22px;
+    margin:  0;
+    padding:  0;
+}
+
+h2 {
+    margin: 0;
+}
+
+h4 {
+    text-align: center;
 }
 
 header {
@@ -40,11 +73,16 @@ nav a {
     text-align: center;
     color: #0f0f0f;
     text-decoration: none;
+    padding: 35px;
 }    
 .book, .join {
     background-color: #171a1f;
     color: white;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
 .book:hover, .join:hover {
@@ -57,14 +95,30 @@ nav a {
     height: 725px;
 }
 
-.msg, .msg h2, .msg p {
+.msg h2 {
     background-color: #4007aa;
     color: white;
+    font-family: amarante, poppins, sans-serif;
+    font-size: .8em
+}
+
+.msg p {
+    font-size: .8em;
+    color:rgb(55, 80, 165);
+    padding-bottom: 15px;
+}
+
+.msg {
+    background-color: #4007aa;
+    line-height: 1.5em;
+    padding: 35px;
 }
 
 footer, footer a:hover {
     background-color: #04437e;
     color: white;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 
 footer a {
@@ -77,3 +131,23 @@ footer p a:hover {
     text-decoration: underline;
     font-size: 1.2em;
 }   
+
+footer .social img {
+    padding-top: 15px;
+}
+
+logo_link {
+    padding-top: 5px;
+}
+
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+}
+
+.card-img {
+    border: 10px solid #040000;
+}
+
+main selection img {
+    box-sizing: border-box;
+}
