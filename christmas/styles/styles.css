@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Mate&family=Satisfy&display=swap');
+
+.home-title {
+    font-family: Mate, Satisfy, sans-serif;
+    font-size: 2em;
+    margin-top: 10px;
+    text-align: center;
+    color: black
+}
+
+.home-info {
+    grid-column: 1;
+    text-align: left;
+}
+
+.home-location{
+    grid-column: 2;
+    text-align: right;
+}
+
+#home-grid{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(5, 1fr);
+}
+
+.content{
+    max-width: 1600px;
+    margin: 0 auto;
+    background-color: red;
+}
+
+body{
+    background-color: gray;
+}
+
+h1{
+    font-family: Satisfy, Mate, sans-serif;
+    text-align: center;
+    font-size: 60px;
+
+}
+h2{
+    font-family: Satisfy, Mate, sans-serif;
+    margin-top: 0;
+    font-weight: bold;
+    text-align: center;
+
+}
+
+#leftbox{
+    float:left;
+    width: 45%;
+    height: 400px;
+    font-size: 30px;
+    font-family: Mate, Satisfy, sans-serif;
+
+}
+
+#rightbox{
+    float:right;
+    width: 45%;
+    height: 400px;
+    font-size: 22px;
+    font-family: Mate, Satifsy, sans-serif;
+
+
+}
+main section {
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+    font-size: large;
+    background-color: red;
+}
+
+footer{
+    font-weight: bold;
+}
+
+
+header{
+    display:block;
+    background-color:rgb(12, 12, 12);
+    color:black;
+    width: 100%;
+    margin-bottom:100px; 
+    
+} 
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    color:black
+    
+}
+.logo{
+    width:30%;
+    margin: 0 auto;
+}
+#composition-box{
+    grid-column:1/4;
+    grid-row:1/3;
+    margin-top: 100px;
+}
+.composition {
+    width: 100%;
+    margin-top: 70px;    
+}
+.candycanes{
+    width:100%;
+}
+
+.gingerbread{
+    width:100%;
+    margin-top: 10px;
+    margin-right: 200px
+}
+.cookies{
+    width:100%;
+    margin-top: 100px;
+
+}
+.cocoa{
+    width:30%;
+}
+#maingrid{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+}
+#leftcolumn{
+    float:left;
+    width: 60%;
+    height: 400px;
+    font-size: 15px;
+    font-family: Mate, Satisfy, sans-serif;
+
+}
+
+
+.picturegrid{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+
+}
+footer {
+    background-color: red;
+    color: white;
+    padding: 25px 50px;
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer a:hover {
+    background-color: white;
+    color: rgb(231, 222, 231);
+    padding: 25px 50px;
+    margin-top: 200px;
+}
+
+footer a {
+    text-align: center;
+    color: #6834a3;
+    text-decoration: none;
+}
+
+footer p a:hover {
+    text-decoration: underline;
+    font-size: 1.2em;
+}
+
+footer .social img {
+    padding-top: 15px;
+}
